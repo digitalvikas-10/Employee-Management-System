@@ -6,8 +6,6 @@ const Login = ({handelLogin}) => {
 
   const submithandler = (e) => {
     e.preventDefault();
-       console.log("email is:",email);
-       console.log("password is:",password)
        handelLogin(email,password)
        setEmail("");
        setPassword("");
